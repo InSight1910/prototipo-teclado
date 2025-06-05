@@ -37,7 +37,7 @@
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting front back)
-		(grid_origin 230.02875 78.105)
+		(grid_origin 231.831207 94.198996)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -176,7 +176,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0035248f-c3d0-4897-a598-43e5025993ad")
-		(at -94.763477 38.951568 90)
+		(at 117.526074 101.44125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D34"
@@ -805,11 +805,11 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "041c8b21-82f3-4c83-a03a-9e39b6a01994")
-		(at -84.713477 38.951568 90)
+		(at 237.359747 106.465114 110)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D37"
-			(at 0 -2 90)
+			(at 0 -2 110)
 			(layer "F.SilkS")
 			(uuid "cb1d416f-3d75-4f7f-a54e-f37d6a7e41ee")
 			(effects
@@ -820,7 +820,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 0 2.1 90)
+			(at 0 2.1 110)
 			(layer "F.Fab")
 			(uuid "22892d6f-80e4-488b-863b-38e58c41d7d8")
 			(effects
@@ -831,7 +831,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 110)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -844,7 +844,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 0 0 90)
+			(at 0 0 110)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -857,7 +857,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 90)
+			(at 0 0 110)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -870,7 +870,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
+			(at 0 0 110)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -958,7 +958,7 @@
 			(uuid "43837afc-3ee0-4eb3-b781-3cf833e7447a")
 		)
 		(fp_line
-			(start 1.4 -0.9)
+			(start 1.400001 -0.9)
 			(end 1.4 0.9)
 			(stroke
 				(width 0.1)
@@ -966,16 +966,6 @@
 			)
 			(layer "F.Fab")
 			(uuid "5b31d9d1-da22-423c-a560-d623c2a12481")
-		)
-		(fp_line
-			(start -1.4 -0.9)
-			(end 1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "4d640594-93b1-4646-9d18-df446d6a7e1b")
 		)
 		(fp_line
 			(start 0.25 -0.4)
@@ -986,6 +976,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "4a5ef940-f770-4ff8-8b2c-58c4e8aa3ae8")
+		)
+		(fp_line
+			(start -1.4 -0.9)
+			(end 1.400001 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4d640594-93b1-4646-9d18-df446d6a7e1b")
 		)
 		(fp_line
 			(start 0.25 0)
@@ -999,16 +999,6 @@
 		)
 		(fp_line
 			(start -0.35 0)
-			(end -0.35 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "a9cd3357-1964-4148-9eb6-a70f7813bd83")
-		)
-		(fp_line
-			(start -0.35 0)
 			(end 0.25 -0.4)
 			(stroke
 				(width 0.1)
@@ -1016,6 +1006,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "157a25af-a661-424f-8cc1-190170e89293")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.349999 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "a9cd3357-1964-4148-9eb6-a70f7813bd83")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -1049,7 +1049,7 @@
 		)
 		(fp_line
 			(start 1.4 0.9)
-			(end -1.4 0.9)
+			(end -1.400001 0.9)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -1058,7 +1058,7 @@
 			(uuid "defff59b-2000-4978-b07e-5f338e560e9a")
 		)
 		(fp_line
-			(start -1.4 0.9)
+			(start -1.400001 0.9)
 			(end -1.4 -0.9)
 			(stroke
 				(width 0.1)
@@ -1068,7 +1068,7 @@
 			(uuid "50986985-88cc-4121-8597-a9a7eedd208c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at 0 -2 110)
 			(layer "F.Fab")
 			(uuid "ef1991e7-feb7-45c4-a58c-ee240e0fbb93")
 			(effects
@@ -1079,7 +1079,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0 90)
+			(at -1.65 0 110)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1089,7 +1089,7 @@
 			(uuid "102bf57b-7baf-4302-a787-2158c70f1fac")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0 90)
+			(at 1.65 0 110)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -1114,7 +1114,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "08e5c7f3-37c5-4385-a40e-e96b59f95eac")
-		(at -74.663477 50.541568 90)
+		(at 117.526074 81.200625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D24"
@@ -1423,7 +1423,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0a0c511b-fa3c-4d4e-8707-00a29e5dfbf2")
-		(at -74.663477 62.131568 90)
+		(at 281.701875 40.005 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D8"
@@ -1732,7 +1732,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0c517189-11b4-46df-8604-d574c1e46bf7")
-		(at -84.713477 50.541568 90)
+		(at 57.518574 82.8675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D21"
@@ -2041,7 +2041,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0ced9c6c-ae82-435d-b682-cf5ffe9176f4")
-		(at -88.063477 62.131568 90)
+		(at 117.526074 41.195625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D4"
@@ -2350,11 +2350,11 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "0e7ea553-0125-4e65-86d5-63183793dd42")
-		(at -91.413477 38.951568 90)
+		(at 137.699007 106.3465 75)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D35"
-			(at 0 -2 90)
+			(at 0 -2 75)
 			(layer "F.SilkS")
 			(uuid "de94b974-3137-4455-afaa-5f388406b06d")
 			(effects
@@ -2365,7 +2365,7 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 0 2.1 90)
+			(at 0 2.1 75)
 			(layer "F.Fab")
 			(uuid "a0a340c4-ac44-4649-a831-2958f3c3d65b")
 			(effects
@@ -2376,7 +2376,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 75)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2389,7 +2389,7 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 0 0 90)
+			(at 0 0 75)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2402,7 +2402,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 90)
+			(at 0 0 75)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2415,7 +2415,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
+			(at 0 0 75)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -2463,16 +2463,6 @@
 			(uuid "ca0d9b64-b243-4a53-b044-5dc7136846ac")
 		)
 		(fp_line
-			(start 2.35 -1.15)
-			(end 2.35 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "fcf75e1e-0250-4247-8836-bab10f6b9f5b")
-		)
-		(fp_line
 			(start -2.35 -1.15)
 			(end 2.35 -1.15)
 			(stroke
@@ -2493,6 +2483,16 @@
 			(uuid "2dd4727e-3944-4d99-a437-aaf8cc9f33e9")
 		)
 		(fp_line
+			(start 2.35 -1.15)
+			(end 2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fcf75e1e-0250-4247-8836-bab10f6b9f5b")
+		)
+		(fp_line
 			(start 2.35 1.15)
 			(end -2.35 1.15)
 			(stroke
@@ -2501,16 +2501,6 @@
 			)
 			(layer "F.CrtYd")
 			(uuid "989a64c4-0d6f-485e-bee2-346568bca27b")
-		)
-		(fp_line
-			(start 1.4 -0.9)
-			(end 1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "775919e4-c546-4ffe-865e-79c5900250d1")
 		)
 		(fp_line
 			(start -1.4 -0.9)
@@ -2523,6 +2513,16 @@
 			(uuid "e7dd0efd-7e6c-44f7-b561-50ecc95f6c7b")
 		)
 		(fp_line
+			(start 1.4 -0.9)
+			(end 1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "775919e4-c546-4ffe-865e-79c5900250d1")
+		)
+		(fp_line
 			(start 0.25 -0.4)
 			(end 0.25 0.4)
 			(stroke
@@ -2533,14 +2533,14 @@
 			(uuid "db5bbafb-dc5a-4f63-9bd9-3e427ce452bd")
 		)
 		(fp_line
-			(start 0.25 0)
-			(end 0.75 0)
+			(start -0.75 0)
+			(end -0.35 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "383e850f-39b5-40cc-b1cc-f19a4ea6e503")
+			(uuid "edd6e8bd-8a07-414c-90d7-93d393d4f135")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -2564,7 +2564,7 @@
 		)
 		(fp_line
 			(start -0.35 0)
-			(end -0.35 0.55)
+			(end -0.35 0.550001)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -2573,14 +2573,14 @@
 			(uuid "651154fd-a60e-4219-b351-ebb9de78b449")
 		)
 		(fp_line
-			(start -0.75 0)
-			(end -0.35 0)
+			(start 0.25 0)
+			(end 0.75 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "edd6e8bd-8a07-414c-90d7-93d393d4f135")
+			(uuid "383e850f-39b5-40cc-b1cc-f19a4ea6e503")
 		)
 		(fp_line
 			(start 0.25 0.4)
@@ -2593,16 +2593,6 @@
 			(uuid "3b9cff8f-be2e-455d-8894-81dde710e62b")
 		)
 		(fp_line
-			(start 1.4 0.9)
-			(end -1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d5dfd47f-7a9c-4a7e-9a0d-f8bfea68dd17")
-		)
-		(fp_line
 			(start -1.4 0.9)
 			(end -1.4 -0.9)
 			(stroke
@@ -2612,8 +2602,18 @@
 			(layer "F.Fab")
 			(uuid "8f0f10fe-ad06-4a4e-ba80-44e138930c90")
 		)
+		(fp_line
+			(start 1.4 0.9)
+			(end -1.4 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d5dfd47f-7a9c-4a7e-9a0d-f8bfea68dd17")
+		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at 0 -2 75)
 			(layer "F.Fab")
 			(uuid "a142c390-71da-44b6-90d4-56e49ab334ae")
 			(effects
@@ -2624,7 +2624,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0 90)
+			(at -1.65 0.000001 75)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -2634,7 +2634,7 @@
 			(uuid "bfedafc8-2ca9-4f9c-a6cc-9cbd06a92e9f")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0 90)
+			(at 1.65 -0.000001 75)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -5624,7 +5624,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "1fc44039-114a-49fd-bbee-14b91b926180")
-		(at -81.363477 56.336568 90)
+		(at 117.526074 61.198125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D14"
@@ -5933,7 +5933,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "2078bba3-6003-4a4e-8f70-6ec2e4fa9a50")
-		(at -78.013477 62.131568 90)
+		(at 261.699375 41.195625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D7"
@@ -6835,7 +6835,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "22fa2b1c-562e-47c2-806a-32ca3670f9ce")
-		(at -78.013477 44.746568 90)
+		(at 301.704375 81.200625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D31"
@@ -10166,7 +10166,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "33c1dd19-3e2e-4bf1-8953-64b0c6a03523")
-		(at -81.363477 50.541568 90)
+		(at 77.521074 81.200625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D22"
@@ -10475,13 +10475,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "3b8d205d-68dc-42c0-8d79-dfaeb670f1ae")
-		(at -91.413477 50.541568 90)
+		(at 301.704375 61.198125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D19"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "b258a7b5-089c-4aac-91b0-58b533992812")
+			(uuid "d1667601-0a30-4931-8bd9-b3a7c79f4fff")
 			(effects
 				(font
 					(size 1 1)
@@ -10492,7 +10492,7 @@
 		(property "Value" "Diode"
 			(at 0 2.1 90)
 			(layer "F.Fab")
-			(uuid "f1a26096-47ca-451c-b40a-b25ffb3b031a")
+			(uuid "c3e1d250-966e-406a-bfb3-f847cf359ea2")
 			(effects
 				(font
 					(size 1 1)
@@ -10505,7 +10505,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c2f6e759-0448-4078-80b4-cf9a905420e0")
+			(uuid "267a2506-9690-4f87-bf82-9d593e5e4e5d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10518,7 +10518,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f3611e0f-ed0a-4615-ae8d-1787f29ada24")
+			(uuid "00cceb01-b620-4578-b09d-36a09909caf8")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10996,7 +10996,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "464e55e6-4523-472c-a73b-d32988d138ff")
-		(at -84.713477 44.746568 90)
+		(at 261.699375 81.200625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D29"
@@ -11898,7 +11898,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "4a0be853-d23a-4710-867f-63b0f2a1ecc0")
-		(at -94.763477 56.336568 90)
+		(at 321.706875 42.8625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D10"
@@ -13393,7 +13393,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "602b127c-38af-43bf-aeb2-122f6bb44504")
-		(at -98.113477 44.746568 90)
+		(at 137.528574 82.8675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D25"
@@ -13702,13 +13702,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "65bf512d-7264-4559-ad82-f1ec38546b3f")
-		(at -81.363477 62.131568 90)
+		(at 258.365625 41.195625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D6"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "6963cff9-2a58-44a0-99c4-d86fae9b7d9b")
+			(uuid "bded64ee-4185-4934-b473-5fbe6c9aa980")
 			(effects
 				(font
 					(size 1 1)
@@ -13719,7 +13719,7 @@
 		(property "Value" "Diode"
 			(at 0 2.1 90)
 			(layer "F.Fab")
-			(uuid "63f1a582-34fd-41c3-b59f-986937a273b2")
+			(uuid "ffda145b-daf1-449e-8b3d-9d19b7b54246")
 			(effects
 				(font
 					(size 1 1)
@@ -13732,7 +13732,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "db803110-ef44-47a6-84b2-c9e9adc72b3c")
+			(uuid "0a5e58f5-90ae-49a7-adc9-8fd2e5f9484c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13745,7 +13745,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19f0d2da-edb9-4fda-8b0f-a99f8bb98224")
+			(uuid "8d34f9b8-2c69-45e3-9cf1-55dbe8726207")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15197,7 +15197,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "698097e9-7957-48bd-a872-36997003cde6")
-		(at -78.013477 56.336568 90)
+		(at 121.097949 61.198125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D15"
@@ -15506,7 +15506,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "6a1487cd-b4b9-4855-abb7-4b4ada423469")
-		(at -91.413477 44.746568 90)
+		(at 238.363125 82.8675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D27"
@@ -15815,13 +15815,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "6a8a408e-8cdc-4800-b4d0-27511df418f2")
-		(at -88.063477 50.541568 90)
+		(at 321.706875 62.865 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D20"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "0dc0bb76-c541-4974-8a71-86485ced2fcd")
+			(uuid "6b3662d3-09de-448a-92b1-9b84579683a1")
 			(effects
 				(font
 					(size 1 1)
@@ -15832,7 +15832,7 @@
 		(property "Value" "Diode"
 			(at 0 2.1 90)
 			(layer "F.Fab")
-			(uuid "32c762eb-b855-457f-9eda-713305b409a2")
+			(uuid "93d79006-fac0-4173-abb4-8cab484f1a5b")
 			(effects
 				(font
 					(size 1 1)
@@ -15845,7 +15845,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "73b169ad-c485-46c5-af70-875249c43948")
+			(uuid "2b8d6553-15f2-4ded-8a86-37b38d4f025a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15858,7 +15858,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7ab3f56f-4fe5-4587-ab36-cfd3b98fa48c")
+			(uuid "89b5234f-4dab-4fbe-8d8c-7f9f1e5564b9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16717,13 +16717,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "6c142762-107d-43be-ab07-0179a06a2852")
-		(at -98.113477 50.541568 90)
+		(at 261.699375 61.198125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D17"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "21ca0842-d03d-471a-b98f-7eb4633ff878")
+			(uuid "bd003a57-e500-4d33-adef-85a5dca50088")
 			(effects
 				(font
 					(size 1 1)
@@ -16734,7 +16734,7 @@
 		(property "Value" "Diode"
 			(at 0 2.1 90)
 			(layer "F.Fab")
-			(uuid "09141968-ed9b-4e7c-bba6-e84543655e6e")
+			(uuid "1a4801a4-23d4-4c05-941c-a0020274e946")
 			(effects
 				(font
 					(size 1 1)
@@ -16747,7 +16747,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4f75f943-2ad8-47d3-bede-22e8d9cbbad9")
+			(uuid "69d3d36a-ec45-4e2f-b97a-0c135a654467")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16760,7 +16760,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99306e02-ac07-4ad1-ac55-64a4d5422fe5")
+			(uuid "af49d5d6-c40c-4a16-9000-5a679ba0fb02")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17619,13 +17619,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "72bb1b7f-ee11-428b-a61c-b08fe5cc4276")
-		(at -88.063477 38.951568 90)
+		(at 141.865702 107.940278 70)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D36"
-			(at 0 -2 90)
+			(at 0 -2 70)
 			(layer "F.SilkS")
-			(uuid "8c422651-7522-425e-b5a3-b24ba1a7c56e")
+			(uuid "3d8fa5e2-5a3f-440e-8fbb-7b0d09c6b77c")
 			(effects
 				(font
 					(size 1 1)
@@ -17634,9 +17634,9 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 0 2.1 90)
+			(at 0 2.1 70)
 			(layer "F.Fab")
-			(uuid "9e06981b-bff4-4e42-ad0f-6503ef2ac1db")
+			(uuid "b5ad4f87-a889-4eb1-81f7-82288308ffd6")
 			(effects
 				(font
 					(size 1 1)
@@ -17645,11 +17645,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 70)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3e1d7a89-5659-4217-bc34-cf9ad8859e06")
+			(uuid "c790dac5-fb87-489a-8795-cbb819078a9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17658,11 +17658,11 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 0 0 90)
+			(at 0 0 70)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "325dfb83-55b7-4fdb-83cd-7964cc0bf80a")
+			(uuid "35b2452e-d3b1-423b-b8f2-39cb7fd2374f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17671,7 +17671,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 90)
+			(at 0 0 70)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17684,7 +17684,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
+			(at 0 0 70)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -17732,16 +17732,6 @@
 			(uuid "d5499ad5-2c10-4f97-a647-65c99ce66278")
 		)
 		(fp_line
-			(start 2.35 -1.15)
-			(end 2.35 1.15)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "d681b388-3d07-42dc-bbad-752bbad9a23c")
-		)
-		(fp_line
 			(start -2.35 -1.15)
 			(end 2.35 -1.15)
 			(stroke
@@ -17762,6 +17752,16 @@
 			(uuid "c741af7e-ad65-479c-b8ac-9e512401591b")
 		)
 		(fp_line
+			(start 2.35 -1.15)
+			(end 2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "d681b388-3d07-42dc-bbad-752bbad9a23c")
+		)
+		(fp_line
 			(start 2.35 1.15)
 			(end -2.35 1.15)
 			(stroke
@@ -17772,17 +17772,7 @@
 			(uuid "3d4990da-be23-40f6-8e32-bb065fdcdbe6")
 		)
 		(fp_line
-			(start 1.4 -0.9)
-			(end 1.4 0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "81027539-eeb0-4c9d-a98c-ad2d8f28b562")
-		)
-		(fp_line
-			(start -1.4 -0.9)
+			(start -1.400001 -0.9)
 			(end 1.4 -0.9)
 			(stroke
 				(width 0.1)
@@ -17790,6 +17780,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "37100487-e71e-4bb6-925a-704232e5eef0")
+		)
+		(fp_line
+			(start 1.4 -0.9)
+			(end 1.400001 0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "81027539-eeb0-4c9d-a98c-ad2d8f28b562")
 		)
 		(fp_line
 			(start 0.25 -0.4)
@@ -17802,14 +17802,14 @@
 			(uuid "88c7ea9b-be08-46ea-8b9f-dc0254631ec4")
 		)
 		(fp_line
-			(start 0.25 0)
-			(end 0.75 0)
+			(start -0.75 0)
+			(end -0.35 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "88c2b7ec-a0d7-4568-beb2-952d3c2a7bdc")
+			(uuid "36542360-fec2-4914-89ec-7723202f8cd7")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -17833,7 +17833,7 @@
 		)
 		(fp_line
 			(start -0.35 0)
-			(end -0.35 0.55)
+			(end -0.349999 0.55)
 			(stroke
 				(width 0.1)
 				(type solid)
@@ -17842,14 +17842,24 @@
 			(uuid "aa6b487c-1e68-46dc-abfb-2f94f60535c0")
 		)
 		(fp_line
-			(start -0.75 0)
-			(end -0.35 0)
+			(start 0.25 0)
+			(end 0.75 0)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "36542360-fec2-4914-89ec-7723202f8cd7")
+			(uuid "88c2b7ec-a0d7-4568-beb2-952d3c2a7bdc")
+		)
+		(fp_line
+			(start -1.4 0.9)
+			(end -1.400001 -0.9)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "66394544-841c-452a-b536-ceac3cdafaa9")
 		)
 		(fp_line
 			(start 0.25 0.4)
@@ -17862,7 +17872,7 @@
 			(uuid "2477aae5-ec42-4683-816f-4b5b520bdbb5")
 		)
 		(fp_line
-			(start 1.4 0.9)
+			(start 1.400001 0.9)
 			(end -1.4 0.9)
 			(stroke
 				(width 0.1)
@@ -17871,18 +17881,8 @@
 			(layer "F.Fab")
 			(uuid "b6a91d84-c89e-4738-923f-ca9cc4e30f2b")
 		)
-		(fp_line
-			(start -1.4 0.9)
-			(end -1.4 -0.9)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "66394544-841c-452a-b536-ceac3cdafaa9")
-		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at 0 -2 70)
 			(layer "F.Fab")
 			(uuid "bb43fc47-d68b-48b2-abc2-0ce2986aea30")
 			(effects
@@ -17893,7 +17893,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0 90)
+			(at -1.65 0 70)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -17903,7 +17903,7 @@
 			(uuid "57976e38-729a-4449-8dcd-5ed75c2752da")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0 90)
+			(at 1.65 0 70)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -18521,7 +18521,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "769a609f-478f-48be-bf56-9b5b5beb1414")
-		(at -81.363477 44.746568 90)
+		(at 281.701875 80.01 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D30"
@@ -18830,13 +18830,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "7e88caf2-cedd-42d0-8432-afb21ca0d69a")
-		(at -94.763477 50.541568 90)
+		(at 281.701875 60.0075 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D18"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "3ef93ba5-6d3d-443b-af3f-1e4986fe9591")
+			(uuid "7b4e7a5d-3105-4ebb-8226-9e7168f28a81")
 			(effects
 				(font
 					(size 1 1)
@@ -18847,7 +18847,7 @@
 		(property "Value" "Diode"
 			(at 0 2.1 90)
 			(layer "F.Fab")
-			(uuid "e942e468-95fc-4e79-aff7-d818a7920ba5")
+			(uuid "b7789c96-5626-4704-971d-4de39db215ca")
 			(effects
 				(font
 					(size 1 1)
@@ -18860,7 +18860,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "422a2f0b-9d79-492e-ba7b-c6ad5e996c6b")
+			(uuid "7e362c2b-6eef-4b5a-a2e0-04b32a025ad4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18873,7 +18873,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7cfa563d-478e-4e81-956b-5892ac9593ae")
+			(uuid "4b11355d-89e0-4c04-b32d-8e57452a1bbc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20918,7 +20918,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "87e11515-6e79-42b2-9f04-a047ed6d55b1")
-		(at -74.663477 38.951568 90)
+		(at 281.701875 100.250625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D40"
@@ -22142,7 +22142,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "8e1916e1-c146-4d20-8777-da0f10d41663")
-		(at -88.063477 56.336568 90)
+		(at 77.521074 61.198125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D12"
@@ -22451,7 +22451,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "93e08eee-d28a-4f14-8958-44b44a6af5ae")
-		(at -88.063477 44.746568 90)
+		(at 241.696875 82.8675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D28"
@@ -23353,7 +23353,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "991f7932-60b8-44d8-977a-d51580362639")
-		(at -78.013477 50.541568 90)
+		(at 97.523574 80.01 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D23"
@@ -23662,13 +23662,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a0163525-258a-43da-ba0a-8c7c79e4dc3d")
-		(at -81.363477 38.951568 90)
+		(at 240.931622 106.038423 105)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D38"
-			(at 0 -2 90)
+			(at 0 -2 105)
 			(layer "F.SilkS")
-			(uuid "9f84785e-5e59-4ff5-9e1a-a356a478db00")
+			(uuid "f059044e-5cf0-4ce9-ab85-cad96f9de471")
 			(effects
 				(font
 					(size 1 1)
@@ -23677,9 +23677,9 @@
 			)
 		)
 		(property "Value" "Diode"
-			(at 0 2.1 90)
+			(at 0 2.1 105)
 			(layer "F.Fab")
-			(uuid "473e2338-64c4-4e0e-a349-ceda9ab6e564")
+			(uuid "b5cd03d5-49a4-41a8-9e56-1ec1995d5932")
 			(effects
 				(font
 					(size 1 1)
@@ -23688,11 +23688,11 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 90)
+			(at 0 0 105)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "33c8d60d-b041-4d77-b473-2683e3f3ff97")
+			(uuid "691ff525-62bb-4377-8b8d-60d2051782b6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23701,11 +23701,11 @@
 			)
 		)
 		(property "Description" "1N4148 (DO-35) or 1N4148W (SOD-123)"
-			(at 0 0 90)
+			(at 0 0 105)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00d68ca2-d304-499c-9606-7714936cf458")
+			(uuid "08bad6b7-0957-428e-9250-91955ce8c061")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23714,7 +23714,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 90)
+			(at 0 0 105)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23727,7 +23727,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 90)
+			(at 0 0 105)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -23856,16 +23856,6 @@
 		)
 		(fp_line
 			(start -0.35 0)
-			(end -0.35 -0.55)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d84e92aa-243b-4e81-a0e5-54bcee233d8f")
-		)
-		(fp_line
-			(start -0.35 0)
 			(end 0.25 -0.4)
 			(stroke
 				(width 0.1)
@@ -23873,6 +23863,16 @@
 			)
 			(layer "F.Fab")
 			(uuid "17f4b44a-a24c-4152-8485-858a2caf2a97")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.550001)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d84e92aa-243b-4e81-a0e5-54bcee233d8f")
 		)
 		(fp_line
 			(start -0.35 0)
@@ -23925,7 +23925,7 @@
 			(uuid "efda0704-6fe3-46cd-abb4-d941b1573db3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 -2 90)
+			(at 0 -2 105)
 			(layer "F.Fab")
 			(uuid "a41f73b6-d6df-4c82-8f38-9343015e58c9")
 			(effects
@@ -23936,7 +23936,7 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -1.65 0 90)
+			(at -1.65 -0.000001 105)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23946,7 +23946,7 @@
 			(uuid "9975a5ac-02da-41dc-9268-926c0e8b6fa2")
 		)
 		(pad "2" smd roundrect
-			(at 1.65 0 90)
+			(at 1.65 0.000001 105)
 			(size 0.9 1.2)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
@@ -23971,7 +23971,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "a68c4675-aac0-42d2-bfb1-f8a937a93fc9")
-		(at -91.413477 62.131568 90)
+		(at 97.523574 40.005 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D3"
@@ -24873,7 +24873,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "abb93917-4a53-40df-9960-1d3654369bb0")
-		(at -74.663477 44.746568 90)
+		(at 321.706875 82.8675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D32"
@@ -27173,13 +27173,13 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "c845ffe2-f79e-4470-b46d-3b699679d9d5")
-		(at -98.113477 62.131568 90)
+		(at 57.388125 42.8625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D1"
 			(at 0 -2 90)
 			(layer "F.SilkS")
-			(uuid "5a079462-85b8-4ddc-b186-0907981c0ed3")
+			(uuid "a8f41565-2da6-480a-91be-cb4e73432c85")
 			(effects
 				(font
 					(size 1 1)
@@ -27190,7 +27190,7 @@
 		(property "Value" "Diode"
 			(at 0 2.1 90)
 			(layer "F.Fab")
-			(uuid "18ea1697-0fbb-4394-ad57-561ac8df1641")
+			(uuid "07f47ce5-7ced-4d78-8f65-5e0a2d308087")
 			(effects
 				(font
 					(size 1 1)
@@ -27203,7 +27203,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "521c107b-e3c8-4313-9d0c-1f61e35fb9b2")
+			(uuid "a261f85d-391f-4377-a996-07004d033a71")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27216,7 +27216,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad59b482-263a-4fd3-b5f6-8d1377d32f7f")
+			(uuid "e4ac6194-ee8d-4558-8791-c4278e581203")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28668,7 +28668,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "d59e41ab-f8aa-47b6-bf38-c0afb287b32d")
-		(at -94.763477 62.131568 90)
+		(at 77.521074 41.195625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D2"
@@ -28977,7 +28977,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "d6b30c36-e4a4-4d35-8d8c-502b4f4c9186")
-		(at -94.763477 44.746568 90)
+		(at 141.100449 82.8675 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D26"
@@ -29879,7 +29879,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "d9267827-8cf5-4bd5-9af2-99aaca8d4010")
-		(at -98.113477 56.336568 90)
+		(at 301.704375 41.195625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D9"
@@ -30188,7 +30188,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "dac9b21f-6266-4c02-886d-46d403b274aa")
-		(at -91.413477 56.336568 90)
+		(at 57.518574 62.865 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D11"
@@ -30497,7 +30497,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "db64c85f-61c9-4a70-aba5-ad5a536047d3")
-		(at -74.663477 56.336568 90)
+		(at 258.365625 61.198125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D16"
@@ -31399,7 +31399,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "ded37c65-4df8-4257-89cd-de9a243554c8")
-		(at -98.113477 38.951568 90)
+		(at 97.523574 99.79125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D33"
@@ -32896,7 +32896,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e7c8a38e-b21e-4e8d-bfa5-c7ccdc713123")
-		(at -84.713477 62.131568 90)
+		(at 121.097949 41.195625 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D5"
@@ -33205,7 +33205,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "e9230b2e-15c6-4f5c-8a14-2e630e52943b")
-		(at -78.013477 38.951568 90)
+		(at 261.699375 101.44125 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D39"
@@ -33514,7 +33514,7 @@
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "ec2ff5e4-d9eb-480c-b060-a3e19959c679")
-		(at -84.713477 56.336568 90)
+		(at 97.523574 60.0075 90)
 		(descr "SOD-123")
 		(tags "SOD-123")
 		(property "Reference" "D13"
